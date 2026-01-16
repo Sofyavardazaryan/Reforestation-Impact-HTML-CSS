@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background: #f5f2ef;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1340px;
+  margin: auto;
+}
+
+.burger input {
+  display: none;
+}
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+  transform: translateX(100%);
+  transition: 0.5s;
+}
+
+#open:checked + .burger-menu {
+  transform: translateX(0);
+}
+
+.burger {
+  display: none;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navTop img {
+  width: 80px;
+}
+
+.navTop a {
+  color: #111111;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.navTop label {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.item1 {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: url("../image/Forest.jpg");
+  background-size: cover;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.hero-left {
+  display: flex;
+  opacity: 70%;
+}
+
+.hero-left h1 {
+  font-size: 64px;
+  margin: 200px;
+  background-color: #fff;
+  padding: 150px 100px 150px 100px;
+  color: #5b7d73;
+  line-height: 1.2;
+}
+
+.hero-right {
+  background-color: #ffffff;
+  padding: 60px;
+  width: 600px;
+  height: 400px;
+  margin: 300px 250px 300px 50px;
+}
+
+.hero-right h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-right p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.hero-right .credit {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.hero-right button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 40%;
+  margin: 0px auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.text-card {
+  background: #4f766d;
+  color: #fff;
+  padding: 40px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #3b3b3b;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
