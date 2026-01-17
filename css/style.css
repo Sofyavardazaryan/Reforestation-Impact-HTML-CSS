@@ -104,11 +104,11 @@ nav {
 }
 
 .hero-right {
-  background-color: #ffffff;
+  background-color: #f4eeee;
   padding: 60px;
-  width: 600px;
+  width: 500px;
   height: 400px;
-  margin: 300px 250px 300px 50px;
+  margin: 30px 20px 30px 0px;
 }
 
 .hero-right h2 {
@@ -172,3 +172,4 @@ footer {
   color: #ffffff;
   text-align: center;
 }
+
